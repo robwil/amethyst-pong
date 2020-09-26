@@ -1,0 +1,12 @@
+[package]
+name = "amethyst-pong"
+version = "0.1.0"
+authors = ["Rob Williams <contact@robwilliams.me>"]
+edition = "2018"
+
+[dependencies]
+
+[dependencies.amethyst]
+version = "0.15"
+features = ["metal"]
+# TODO: consider metal here
