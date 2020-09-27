@@ -13,8 +13,6 @@ pub struct Pong;
 impl SimpleState for Pong {
     fn on_start(&mut self, data: StateData<'_, GameData<'_, '_>>) {
         let world = data.world;
-        world.register::<Paddle>();
-
         initialize_camera(world);
 
         let sprite_sheet_handle = load_sprite_sheet(world);
